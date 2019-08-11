@@ -16,7 +16,7 @@ namespace OnlineProductsPortal.Controllers
 
             ViewData["Version"] = mvcName.Version.Major + "." + mvcName.Version.Minor;
             ViewData["Runtime"] = isMono ? "Mono" : ".NET"
-                                                    + "Azure Devops Hands-on Part-01";
+                                                    + "Azure Devops Hands-on Part-001";
 
             return View();
         }
